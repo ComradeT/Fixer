@@ -1,0 +1,1130 @@
+@media only screen and (max-width: 1680px) {
+    .container{
+        width: 1400px;
+    }
+    .top{
+        &__text{
+            width: 55%;
+        }
+        &__action-closed{
+            padding: 18px 0;
+            img{
+                width: 12px;
+                height: 12px;
+            }
+        }
+        &__action-desc{
+            padding-top: 15px;
+            font-size: 16px;
+            line-height: 19px;
+        }
+        &__action-link{
+            padding-top: 15px;
+            font-size: 16px;
+            line-height: 19px;
+        }
+    }
+    .team__swiper-button-prev{
+        left: 88% !important;
+    }
+    .diagnostics{
+        background-size: 100%;
+    }
+}
+@media only screen and (max-width: 1440px) {
+    .container{
+        width: 1170px;
+    }
+    .top{
+        height: 90vh;
+        &__container{
+            height: 82vh;
+        }
+        &__text{
+            width: 56%;
+        }
+        &__desc{
+            width: 69%;
+        }
+        &__title{
+            font-size: 56px;
+        }
+    }
+    .cost{
+        &__container{
+            width: 1100px;
+        }
+    }
+    .team__swiper-button-prev{
+        left: 85% !important;
+    }
+    .question{
+        &__text {
+            width: 25%;
+        }
+    }
+    .form__button{
+        white-space: nowrap;
+    }
+}
+@media only screen and (max-width: 1366px) {
+    .header{
+        padding-top: 25px;
+    } 
+    .top{
+        &__container{
+           height: 80vh;
+        }
+    }
+    .advant{
+        &__item{
+            width: 18%;
+        }
+    }
+    .form__text{
+        width: 30%;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .container{
+        width: 1000px;
+    } 
+    .top{
+        &__text{
+            width: 65%;
+        }
+        &__action{
+            flex-wrap: nowrap;
+        }
+        &__action-desc{
+            white-space: nowrap;
+            margin: 0 20px;
+        }
+        &__action-link{
+            white-space: nowrap;
+            padding-right: 70px;
+        }
+    }
+    .diagnostics{
+        background-size: 90%;
+        &__container{
+            width: 65%;
+        }
+    }
+    .cost{
+        &__container{
+            width: 920px;
+        }
+    }
+    .team__swiper-button-prev{
+        left: 83% !important;
+    }
+    .rating{
+        &__box{
+            flex-direction: column;
+        }
+        &__box-appraisal{
+            border-right: none;
+            padding-right: 0;
+        }
+        &__box-quantity{
+            padding-bottom: 20px;
+        }
+        &__box-logo{
+            position: relative;
+            justify-content: flex-start;
+            &::before{
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 65px;
+                height: 1px;
+                background-color: #E3E3E3;
+            }
+        }
+    }
+    form{
+        display: block;
+        padding: 56px 85px;
+    }
+    .form__text{
+        width: 100%;
+        margin-bottom: 35px;
+    }
+    .form__text-title{
+        text-align: center;
+    }
+    .form__text-desc{
+        text-align: center;
+    }
+    .form__inner{
+        display: block;
+    }
+    .form__tel{
+        display: block;
+        padding: 21px 155px 21px 30px;
+        margin-right: 0;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .form__button{
+        display: block;
+        margin: 0 auto;
+        padding: 21px 121px;
+    }
+    .footer{
+        &__container{
+            display: block;
+        }
+        &__title-top{
+            display: block;
+            text-align: center;
+        }
+        &__title{
+            display: none;
+        }
+        &__map{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 35px;
+        }
+        &__text{
+            display: flex;
+            justify-content: center;
+            gap: 120px;
+            margin: 0;
+        }
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .container{
+        width: 800px;
+    } 
+    .header{
+        position: relative;
+        &__container{
+            margin-bottom: 30px;
+        }
+        .header-none{
+            display: none;
+        }
+        &__menuWrapper{
+            order: 2;
+            width: 75%;
+        }
+        &__end{
+            order: 1;
+        }
+        &__bottom{
+            padding-top: 10px;
+            display: flex;
+            justify-content: space-between;
+            &::before{
+                content: '';
+                position: absolute;
+                top: 45%;
+                left: 0;
+                width: 100%;
+                height: 1px;
+                background: #994786;
+            }
+        }
+        &__logo{
+            display: flex;
+            align-items: center;
+        }
+    }
+    .top{
+        background-image: url(../images/bg-tablet-top2.jpg);
+        background-position: bottom;
+        background-size: 100%;
+        height: 100%;
+        padding-bottom: 75px;
+        &__container{
+            height: 100%;
+            justify-content: center;
+        }
+        &__text{
+            width: 80%;
+            text-align: center;
+            margin-top: 35px;
+        }
+        &__desc{
+            width: 100%;
+            margin-bottom: 460px;
+        }
+        &__btn{
+            margin-bottom: 0;
+        }
+        &__action-closed{
+           position: absolute;
+           top: 3px;
+           left: 20px;
+           width: 20px;
+           height: 20px;
+        }
+        &__action{
+            display: none;
+        }
+        &__action-tablet{
+            position: relative;
+            display: block;
+            width: 100%;
+            padding: 0 30px;
+            background: black;
+            color: #FFC464;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+        }
+        &__action-desc{
+            padding-top: 18px;
+            width: 70%;
+            margin: 0 auto;
+            &::before{
+                top: 22px;
+            }
+        }
+        &__action-link{
+            width: 200px;
+            margin: 0 auto;
+        }
+    }
+    .relative{
+        position: static;
+    }
+    .advant{
+        &__container{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        &__item{
+            display: flex;
+            justify-content: space-between;
+            width: 50%;
+            margin-bottom: 50px;
+            &:nth-child(3){
+                margin: 0;
+            }
+            &:nth-child(4){
+                margin: 0;
+            }
+        }
+        &__item-img{
+            width: 130px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        &__item-desc{
+           width: 70%;
+        }
+    }
+    .diagnostics{
+        background-image: url(../images/diag-bg-tablet.png);
+        background-size: 13%;
+        &__container{
+            width: 80%;
+        }
+    }
+    .cost{
+        &__container{
+            width: 800px;
+        }
+    }
+    .team__swiper-button-prev{
+        left: 80% !important;
+    }
+    .question{
+        &__container{
+            display: block;
+        }
+        &__text{
+            width: 100%;
+            text-align: center;
+        }
+        &__desc{
+            width: 70%;
+            margin: 0 auto;
+            margin-bottom: 50px;
+        }
+        &__questions{
+            width: 100%;
+        }
+    }
+}
+@media only screen and (max-width: 860px) {
+    .container{
+        width: 740px;
+    } 
+    .top{
+        &__action-desc{
+            white-space: normal;
+        }
+    }
+    .advant{
+        &__item-img{
+            width: 100px;
+            justify-content: flex-start;
+        }
+        &__img-1{
+            width: 90px;
+            height: 60px;
+        }
+        &__img-2{
+            width: 85px;
+            height: 60px;
+        }
+        &__item-img-3{
+            display: flex;
+            justify-content: center;
+        }
+        &__img-3{
+            width: 60px;
+            height: 60px;
+        }
+        &__img-4{
+            width: 73px;
+            height: 60px;
+        }
+    }
+    .cost{
+        &__container{
+            width: 700px;
+        }
+    }
+    .diagnostics{
+        &__container{
+            width: 90%;
+        }
+    }
+    .team__swiper-button-prev{
+        left: 77% !important;
+    }
+    .footer{
+        &__text{
+            justify-content: space-between;
+        }
+        &__pay{
+            flex-wrap: wrap;
+        }
+        &__pay-desc{
+            width: 100%;
+            text-align: center;
+        }
+    }
+}
+@media only screen and (max-width: 750px) {
+    .container{
+        width: 550px;
+    } 
+    .cost{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        &__container{
+            width: 550px;
+        }
+    }
+    .header{
+        &__menuLimiter{
+            width: 450px;
+            padding: 0 10px;
+            overflow-x: scroll;
+            -webkit-overflow-scrolling: touch;
+        }
+    }
+    .top{
+        background-size: 100%;
+        &__text{
+            width: 100%;
+        }
+    }
+    .advant{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        &__item{
+            width: 100%;
+            &:nth-child(3){
+                margin-bottom: 50px;
+            }
+            &:nth-child(4){
+                margin: 0;
+            }
+        }
+    }
+    .diagnostics{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-image: none;
+        &__container{
+            width: 100%;
+        }
+        &__buttons{
+            flex-direction: column;
+        }
+        &__btn{
+            text-align: center;
+            margin-right: 0;
+        }
+        &__problem{
+            width: 100%;
+        }
+        &__different{
+            width: 100%;
+            text-align: center;
+            padding-left: 0;
+            &::before{
+                left: 100px;
+            }
+        }
+        &__title-mobile{
+            text-align: center;
+        }
+    }
+    .team{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .team__swiper-button-prev{
+        left: 71% !important;
+    }
+    .reviews{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .rating{
+        &__container{
+            flex-direction: column;
+            gap: 25px;
+        }
+        &__box{
+            flex-direction: row;
+            padding: 20px 25px;
+        }
+        &__box-logo{
+            height: 90px;
+            &::before{
+                width: 0;
+                height: 0;
+            }
+        }
+        &__box-appraisal{
+            border-right: 1px solid #E3E3E3;
+            padding-right: 98px;
+            margin-right: 98px;
+        }
+    }
+    .question{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        &__string-quest{
+            font-size: 18px;
+            line-height: 21px;
+            letter-spacing: -0.02em;
+        }
+        &__string-answer{
+            font-size: 18px;
+            line-height: 21px;
+            letter-spacing: -0.02em;
+        }
+    }
+    .footer{
+       &__menu{
+           flex-wrap: wrap;
+           padding-bottom: 50px;
+       }
+       &__menu-item{
+           margin-bottom: 0;
+       }
+       &__text{
+           display: block;
+       }
+    }
+}
+@media only screen and (max-width: 650px) {
+    .container{
+        width: 500px;
+    } 
+    .header{
+        &__container{
+            flex-wrap: nowrap;
+        }
+        &__menuLimiter{
+            width: 100%;
+            padding: 0 10px;
+            overflow-x: scroll;
+            -webkit-overflow-scrolling: touch;
+        }
+    }
+    .top{
+        background-image: url(../images/bg-mobile-top2.jpg);
+        background-position: center;
+        &__text{
+            margin-top: 50px;
+            width: 100%;
+            text-align: left;
+        }
+        &__title{
+            font-size: 38px;
+            line-height: 95%;
+            margin-bottom: 25px;
+        }
+        &__desc{
+            margin-bottom: 233px;
+            font-size: 18px;
+            line-height: 120%;
+        }
+        &__btn{
+            display: block;
+            width: 222px;
+            margin: 0 auto;
+        }
+        &__action-desc{
+            text-align: center;
+        }
+    }
+    .diagnostics{
+        &__firsttitle{
+            text-align: center;
+        }
+        &__title{
+            text-align: center;
+        }
+        &__different{
+            &::before{
+                left: 70px;
+            }
+        }
+    }
+    .cost{
+        &__container{
+            width: 500px;
+        }
+        &__inner{
+            display: none;
+        }
+        &__inner-mobile{
+            display: block;
+        }
+        &__line-name-mobile{
+            font-size: 18px;
+            line-height: 24px;
+            margin-bottom: 15px;
+        }
+        &__box-mobile{
+            border-bottom: 1px solid #ECECEC;
+            margin-bottom: 20px;
+            &:last-child{
+                margin-bottom: 35px;
+            }
+        }
+        &__line-mobile{
+            display: flex;
+            justify-content: space-between;
+        }
+        &__line-name{
+            font-size: 16px;
+            line-height: 24px;
+            margin-bottom: 20px;
+        }
+    }
+    .team__swiper-button-prev{
+        left: 67% !important;
+    }
+    .team_next{
+        padding-top: 50px;
+        &::before{
+            top: 48px;
+        }
+    }
+    .team_prev{
+        padding-top: 50px;
+    }
+    .rating{
+        &__box-appraisal{
+            padding-right: 74px;
+            margin-right: 74px;
+        }
+    }
+    .question{
+        &__string-quest{
+            padding-right: 70px;
+        }
+    }
+}
+@media only screen and (max-width: 550px) {
+    .container{
+        width: 480px;
+    } 
+    .top{
+        background-position: bottom;
+    }
+    .cost{
+        &__title{
+            font-size: 30px;
+            line-height: 40px;
+        }
+        &__container{
+            width: 480px;
+        }
+    }
+    .diagnostics{
+        &__title{
+            font-size: 30px;
+            line-height: 40px;
+            margin-bottom: 30px;
+        }
+        &__buttons{
+            margin-bottom: 20px;
+        }
+    }
+    .team{
+        &__title{
+            font-size: 30px;
+            line-height: 100%;
+        }
+    }
+    .reviews{
+        &__title{
+            font-size: 30px;
+            line-height: 130%;
+        }
+    }
+    .question{
+        &__title{
+            text-align: start;
+            font-size: 30px;
+            line-height: 100%;
+        }
+        &__desc{
+            width: 100%;
+            text-align: start;
+            margin-bottom: 35px;
+        }
+    }
+    .rating{
+        &__box-appraisal{
+            padding-right: 64px;
+            margin-right: 64px;
+        }
+    }
+    .call{
+        padding: 50px 0;
+    }
+    .form__text-title{
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .add__container {
+        width: 480px;
+    }
+    .form__tel{
+        padding: 21px 100px 21px 30px;
+        width: 300px;
+    }
+    .form__button{
+        width: 300px;
+        padding: 21px 50px;
+    }
+    .footer__bottom{
+        display: block;
+        text-align: center;
+        p{
+            &:first-child{
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 500px) {
+    .container{
+        width: 420px;
+    } 
+    .top{
+        &__action-desc{
+            width: 80%;
+        }
+    }
+    .add__container {
+        width: 420px;
+    }
+    form {
+        padding: 75px 30px;
+    }
+    .cost{
+        &__container{
+            width: 420px;
+        }
+    }
+    .rating{
+        &__box-appraisal{
+            padding-right: 34px;
+            margin-right: 34px;
+        }
+    }
+    .advant{
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+    .diagnostics{
+        &__different{
+            &::before{
+                left: 30px;
+            }
+        }
+    }
+    .team__swiper-button-prev{
+        left: 62% !important;
+    }
+    .reviews{
+        &__slide{
+            padding: 30px;
+        }
+        &__frame-img{
+            margin-top: 4px;
+            width: 54px;
+            height: 54px;
+        }
+        &__frame-name{
+            font-size: 18px;
+            line-height: 21px;
+        }
+    }
+}
+@media only screen and (max-width: 450px) {
+    .container{
+        width: 400px;
+    } 
+    .add__container {
+        width: 400px;
+    }
+    .cost{
+        &__container{
+            width: 400px;
+        }
+    }
+    .team_next{
+        padding-top: 42px;
+        &::before{
+            top: 40px;
+        }
+    }
+    .team_prev{
+        padding-top: 42px;
+    }
+    .rating{
+        &__box-appraisal{
+            padding-right: 34px;
+            margin-right: 0;
+        }
+    }
+}
+@media only screen and (max-width: 420px) {
+    .container{
+        width: 380px;
+    } 
+    .add__container {
+        width: 380px;
+    }
+    .cost{
+        &__container{
+            width: 380px;
+        }
+    }
+    .header__menuWrapper {
+        width: 100%;
+    }
+    .top{
+        padding-bottom: 35px;
+        &__desc{
+            margin-bottom: 252px;
+        }
+    }
+    .diagnostics{
+        &__different{
+            &::before{
+                left: 20px;
+            }
+        }
+        &__link{
+            padding: 19px 30px;
+        }
+        &__price-subdesc{
+            span{
+                padding-top: 5px;
+                padding-left: 0;
+                display: block;
+            }
+        }
+    }
+    .team__swiper-button-next{
+        padding-right: 55px;
+        &::before{
+            width: 20px;
+            background-position: right;
+        }
+    }
+    .team__swiper-button-prev{
+        left: 59% !important;
+    }
+    .rating{
+        &__box-appraisal{
+            padding-right: 20px;
+            margin-right: 0;
+        }
+    }
+    .footer{
+        padding-top: 50px;
+    }
+}
+@media only screen and (max-width: 390px) {
+    .container{
+        width: 360px;
+    } 
+    .add__container {
+        width: 360px;
+    }
+    .cost{
+        &__container{
+            width: 360px;
+        }
+    }
+    .header{
+        &__menu{
+            gap: 20px;
+        }
+        &__call{
+            padding: 12px 25px;
+        }
+    }
+    .top{
+        &__title{
+            font-size: 35px;
+        }
+        &__text{
+            margin-top: 15px;
+        }
+       
+    }
+    .diagnostics{
+        &__different{
+            &::before{
+                left: 10px;
+            }
+        }
+    }
+    .rating{
+        &__box-appraisal{
+            padding-right: 10px;
+            margin-right: 0;
+        }
+        &__box-logo{
+            justify-content: center;
+        }
+    }
+    .question{
+        &__string-quest{
+            padding-right: 50px;
+        }
+    }
+}
+@media only screen and (max-width: 370px) {
+    .container{
+        width: 340px;
+    } 
+    .add__container {
+        width: 340px;
+    }
+    .cost{
+        &__container{
+            width: 340px;
+        }
+    }
+    .header{
+        &__town{
+            margin-right: 20px;
+        }
+    }
+    .top{
+        &__desc{
+            margin-bottom: 185px;
+        }
+    }
+    .diagnostics{
+        &__different{
+            &::before{
+                left: 0;
+            }
+        }
+        &__link{
+            padding: 19px 20px;
+        }
+    }
+    .reviews{
+        &__frame{
+            margin-bottom: 15px;
+        }
+        &__desc{
+            line-height: 140%;
+        }
+    }
+    .rating{
+        &__box-appraisal{
+            padding-right: 20px;
+        }
+        &__box-numder{
+            font-size: 20px;
+            line-height: 35px;
+            span{
+                font-size: 30px;
+                line-height: 35px;
+            }
+        }
+    }
+    .form__tel {
+        width: 280px;
+    }
+    .form__button {
+        width: 280px;
+    }
+}
+@media only screen and (max-width: 350px) {
+    .container{
+        width: 320px;
+    } 
+    .add__container {
+        width: 320px;
+    }
+    .cost{
+        &__container{
+            width: 320px;
+        }
+    }
+    .header{
+        &__menu{
+            gap: 12px;
+        }
+    }
+    .top{
+        &__title{
+            font-size: 32px;
+        }
+    }
+    .diagnostics{
+        &__title{
+           font-size: 28px;
+        }
+        &__different{
+            padding-left: 30px;
+        }
+        &__link{
+            font-size: 15px;
+            line-height: 18px;
+        }
+    }
+    .team__swiper-button-next{
+        padding-right: 20px;
+        &::before{
+            display: none;
+        }
+    }
+    .team__swiper-button-prev{
+        left: 65% !important;
+    }
+    .reviews{
+        &__desc{
+            line-height: 130%;
+        }
+    }
+    .rating{
+        &__box-logo{
+            justify-content: flex-end;
+        }
+    }
+    .form__tel {
+        width: 260px;
+    }
+    .form__button {
+        width: 260px;
+    }
+}
+@media only screen and (max-width: 330px) {
+    .container{
+        width: 290px;
+    } 
+    .add__container {
+        width: 290px;
+    }
+    .cost{
+        &__container{
+            width: 290px;
+        }
+        &__title{
+            font-size: 25px;
+        }
+    }
+    .top{
+        &__title{
+            font-size: 29px;
+        }
+    }
+    .diagnostics{
+        &__title{
+            font-size: 25px;
+        }
+        &__different{
+            padding-left: 50px;
+        }
+        &__link{
+            font-size: 13px;
+            line-height: 16px;
+        }
+    }
+    .team{
+        &__title{
+            font-size: 25px;
+        }
+    }
+    .team_next{
+        padding-top: 35px;
+    }
+    .team_prev{
+        padding-top: 35px;
+    }
+    .reviews{
+        &__title{
+            font-size: 25px;
+        }
+        &__desc{
+            line-height: 120%;
+        }
+    }
+    .rating{
+        &__box-appraisal{
+            padding-right: 5px;
+        }
+        &__box-quantity{
+            font-size: 14px;
+        }
+    }
+    .question{
+        &__title{
+            font-size: 25px;
+        }
+    }
+    .form__tel {
+        padding-right: 50px;
+        width: 230px;
+    }
+    .form__button {
+        width: 230px;
+        padding: 21px 20px;
+    }
+    .footer{
+        &__title-top{
+            font-size: 30px;
+        }
+    }
+}
